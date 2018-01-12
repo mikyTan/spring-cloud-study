@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: turbine
+server:
+  port: 6666
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+turbine:
+  app-config: hystrix-dashboard
+  cluster-name-expression: new String("default")
+  combine-host-port: true

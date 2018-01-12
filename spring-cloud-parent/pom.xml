@@ -27,6 +27,8 @@
 		<module>spring-cloud-eureka-client-node1</module>
 		<module>spring-cloud-feign</module>
 		<module>spring-cloud-hystrix</module>
+		<module>hystrix-dashboard</module>
+		<module>spring-cloud-turbine</module>
 	</modules>
 
 
